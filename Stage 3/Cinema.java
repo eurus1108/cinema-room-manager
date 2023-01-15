@@ -63,7 +63,6 @@ public class Cinema {
             ticketPrice = 8;
         }
 
-        System.out.println(frontHalfRows);
         System.out.println("Ticket price: $" + ticketPrice);
         System.out.println();
         cinemaHall[rowNumber - 1][seatNumber - 1] = 'B';
